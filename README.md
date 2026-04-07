@@ -55,6 +55,14 @@ Tecnologías utilizadas
 - Base de datos: (ejemplo: SQLite / MySQL)
 - IDE: (ejemplo: Android Studio)
 
+- ### HU4 – Notificaciones de vehículos
+Como usuario, quiero recibir notificaciones cuando un vehículo ingrese o salga del parqueadero para estar informado en tiempo real.
+
+Criterios de aceptación:
+- El sistema debe enviar una notificación al registrar entrada
+- El sistema debe enviar una notificación al registrar salida
+- La notificación debe mostrarse en tiempo real
+
 ---
 
 ## 📂 Repositorio del proyecto
