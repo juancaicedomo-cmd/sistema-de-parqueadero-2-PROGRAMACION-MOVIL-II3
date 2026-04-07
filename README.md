@@ -10,3 +10,4 @@ Como usuario, quiero registrar la salida de un vehículo para calcular el valor 
 Como usuario, quiero iniciar sesión para acceder al sistema.
 // cambio 1
 // cambio 2
+// cambio 3
