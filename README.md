@@ -63,6 +63,26 @@ Criterios de aceptación:
 - El sistema debe enviar una notificación al registrar salida
 - La notificación debe mostrarse en tiempo real
 
+## HU4 – Notificaciones en tiempo real
+
+En este sprint, se implementó la funcionalidad de notificaciones push para el registro de ingreso y salida de vehículos.
+
+### Implementación técnica
+- Se utilizó **WebSockets** con Socket.IO para enviar notificaciones en tiempo real.
+- Para pruebas locales se configuró **NGROK** para exponer el servidor.
+- Alternativa: **Firebase Cloud Messaging** (plan gratuito) para pruebas en dispositivos móviles.
+
+### Cómo probar
+1. Abrir la app en el dispositivo administrador.
+2. Registrar un vehículo ingresando o saliendo.
+3. Verificar que aparece la notificación instantáneamente en el dispositivo.
+4. Consultar logs del servidor para confirmar envío correcto.
+
+### Evidencias
+- Captura 1: Notificación al ingresar vehículo
+- Captura 2: Notificación al salir vehículo
+- Video Pitch: [Enlace al video demostrativo](#)
+
 ---
 
 ## 📂 Repositorio del proyecto
