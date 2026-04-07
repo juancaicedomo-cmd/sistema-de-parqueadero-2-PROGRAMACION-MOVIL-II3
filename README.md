@@ -8,3 +8,4 @@ Como usuario, quiero registrar la salida de un vehículo para calcular el valor 
 
 ### HU3 – Login
 Como usuario, quiero iniciar sesión para acceder al sistema.
+// cambio 1
