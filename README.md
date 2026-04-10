@@ -81,9 +81,28 @@ En este sprint, se implementó la funcionalidad de notificaciones push para el r
 ### Evidencias
 - Captura 1: Notificación al ingresar vehículo
 - Captura 2: Notificación al salir vehículo
-- Video Pitch: [Enlace al video demostrativo](#)
+Descripción
 
----
+En este sprint se implementaron notificaciones en tiempo real, permitiendo informar al usuario sobre eventos importantes del parqueadero.
 
-## 📂 Repositorio del proyecto
-https://github.com/juancaicedomo-cmd/sistema-de-parqueadero-2-PROGRAMACION-MOVIL-II3.git
+ Notificaciones
+
+El sistema envía notificaciones cuando:
+
+Se registra un vehículo
+Hay cambios en los cupos del parqueadero
+
+Esto permite al usuario estar informado sin actualizar la app.
+
+🛠 Tecnologías
+Java (Android)
+Android Studio
+Firebase / WebSockets
+GitHub
+Pruebas
+
+Se verificó:
+
+Registro de vehículos
+Envío de notificaciones
+Funcionamiento en tiempo real
